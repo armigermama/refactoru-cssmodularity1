@@ -1,0 +1,127 @@
+/*
+	Roni's modification of paired programing:
+	There are sections of the code that were added as well.
+	Please see comments.
+ */
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+/*
+	Data tables
+*/
+
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing:0;
+ }
+
+ table.table-basic-style td,  table.table-basic-style th {
+  	 line-height: 250%;
+  	 padding-right: 20px;
+  	 border-bottom: 1px solid #c6c9cc;
+ }
+
+ tr:last-child td {
+ 	border: 0;
+ }
+
+ tr:last-child {
+ 	 border-bottom: none;
+ }
+
+ table.table-basic-style, table.bar-chart {
+	width: 100%;
+ }
+
+/*
+	Stats
+*/
+
+ .table-stats tr {
+ 	 border-bottom: 1px solid #c6c9cc;
+ 	 border-top: 1px solid #c6c9cc;
+ }
+
+.stats-number {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.stats-label {
+	font-size: 12px;
+	color:#c6c9cc;
+}
+
+ .table-stats td {
+ 	padding: 20px;
+ 	text-align: center;
+ }
+
+/* 
+	Bar Chart
+*/
+
+.bar {
+	background-color: #5F99E3;
+	color: #FFF;
+	border-radius: 0 5px 5px 0;
+	padding: 3px;
+}
+
+.bar-label {
+	width: 100px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+/*
+	Lightbox
+*/
+
+.black-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .8);
+	z-index: 1001;
+}
+
+.lightbox-content {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 30%;
+	padding: 16px;
+	background-color: #FFF;
+	border-radius: 5px;
+	z-index: 1002;
+
+}
+
+.close-lightbox {
+	padding: 10px 50px;
+	color: #FFF;
+	background-color: #F67584;
+	border-radius: 5px;
+	float: right;
+}
+
+
+/*
+	Media Box
+*/
+
+ .mediabox-img {
+ 	float: left;
+	margin-right: 10px;
+ } 
+
+ .mediabox-text {
+ 	overflow: hidden;
+ }
