@@ -78,10 +78,11 @@
 }
 
 /*
-	Lightbox
+	Lightbox - comment out when running other styles.
+
 */
 
-.black-overlay {
+/*.black-overlay {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -111,7 +112,7 @@
 	border-radius: 5px;
 	float: right;
 }
-
+*/
 
 /*
 	Media Box
