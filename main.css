@@ -1,0 +1,83 @@
+
+/* Author: Matt M, Roni & David */
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing:0;
+ }
+
+ th, td, tr {
+ 	border-bottom: 1px solid #c6c9cc;
+ }
+
+ tr:last-child td {
+ 	border: 0;
+ }
+
+ tr.last-child {
+ 	 border-bottom: none;
+ }
+
+ table.table-basic-style {
+	width: 100%;
+ }
+
+ table.table-basic-style td,th {
+ 	line-height: 250%;
+ 	padding-right: 20px;
+ }
+
+ .table-stats tr {
+ 	 border-top: 1px solid #c6c9cc;
+ }
+
+.stats-number {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.stats-label {
+	font-size: 12px;
+	color:#c6c9cc;
+
+}
+
+ .table-stats td {
+ 	padding: 20px;
+ 	text-align: center;
+ }
+
+ .bar{
+ 	background-color: #599EDE;
+ 	display: block;
+ 	width: 100%;
+ }
+
+ .bar-chart{
+width: 100%;
+
+ }
+
+ .bar-chart th{
+ 	width: 100px;
+ 	padding:0px 5px;
+ }
+
+ .bar-chart td th{
+ 	padding:5px;
+ 	line-height:100%; 
+
+ }
+
+
+
+
+
+
+
+
